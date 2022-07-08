@@ -13,10 +13,10 @@ baseurl: ''
 lang: en
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale: America/Los_Angeles
+prefer_datetime_locale: en.js
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: America/Los_Angeles
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -179,6 +179,9 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+    
+include:
+  - "_img"
 
 exclude:
   - '*.gem'
