@@ -13,7 +13,7 @@ tags: [architecture,http-clients,document-path,input-data,micro-service]
 ## Node vs Nest vs Micro-Service
 (#10) Nest.js is a wonderful backend library layered on top of Node. Nest.js is modeled after Angular's constructs and use of decorators but applied at the backend. It will greatly structure your code to be more understandable and neat. <br>
 
-The entire PDF generator is a great example of creating a really sophisticated Micro Service which only job is taking a complex JSON tree, fuesing it will a collection of pre-built templates, generating a final HTML and rendering it in PDF.
+The entire PDF generator is a great example of creating a really sophisticated Micro Service which only job is taking a complex JSON tree, fusing it will a collection of pre-built templates, generating a final HTML and rendering it in PDF.
 ## HTTP Client & Headers
 On the left side, it indicates a HTTP client, such as POSTMAN or a simple CURL command will contact the PDF generator via a RESTFUL API (e.g. CURL -x POST https://localhost/pdf). The caller needs to prepare the right HTTP Headers and a JSON tree encoded in the POST Body. A example of the headers are self-explanatory as follows: ![image](/assets/images/headers.png)
 
