@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Architecture of PDF generator
-categories: [pdf-generator]
+categories: [pdf-service]
 tags: [architecture,http-clients,document-path,input-data,micro-service]
 ---
 
