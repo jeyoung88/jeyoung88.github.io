@@ -171,3 +171,5 @@ The data need to render the PDF is supplied in the body of the HTTP POST. An exa
 ```
 ## Next ...
 In the next few postings, I will detail the sequence of actions, step #1 to step #9, once the HTTP enter into the PDF generator until a PDF is returned to the calling client.
+## Reference pipeline diagram from Nest.js
+![image](/assets/images/pipeline.png)
